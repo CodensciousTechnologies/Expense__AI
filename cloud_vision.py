@@ -1,6 +1,7 @@
 import os
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="./api_key.json"
 #  use your own api_key.json
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="./api_key.json"
+
 import argparse
 import io
 import re
