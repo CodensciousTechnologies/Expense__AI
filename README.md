@@ -154,36 +154,48 @@ pip install google-cloud-storage
 https://cloud.google.com/sdk/
 
 
-This document shows how to prepare your server machine for Python development, including developing Python applications that run on Google Cloud Platform (GCP).
-Preparing the application
-Create a Cloud Storage bucket to upload your images, where YOUR_IMAGE_BUCKET_NAME is a globally unique bucket name:
+## This document shows how to prepare your server machine for Python development, including developing Python applications that run on Google Cloud Platform (GCP).
+
+### Preparing the application
+
+1. Create a Cloud Storage bucket to upload your images, where YOUR_IMAGE_BUCKET_NAME is a globally unique bucket name:
+	
 	gsutil mb gs://YOUR_IMAGE_BUCKET_NAME
 
 
-Create a Cloud Storage bucket to save the translations, where YOUR_TEXT_BUCKET_NAME is a globally unique bucket name:
+2. Create a Cloud Storage bucket to save the translations, where YOUR_TEXT_BUCKET_NAME is a globally unique bucket name:
+
 	gsutil mb gs://YOUR_TEXT_BUCKET_NAME
+	
 
 
-Clone the sample app repository to your local machine:
+3. Clone the sample app repository to your local machine:
+
 	git clone https://github.com/GoogleCloudPlatform/python-docs-samples.git
 
 
-Change to the directory that contains the Cloud Functions sample code:
-cd python-docs-samples/functions/ocr/app/
+4. Change to the directory that contains the Cloud Functions sample code:
+
+	cd python-docs-samples/functions/ocr/app/
 
 
 
-  Configure the app:
-Edit the config.json file in the app directory to have the following contents:
-{
-"RESULT_TOPIC": "YOUR_RESULT_TOPIC_NAME",
-"RESULT_BUCKET": "YOUR_TEXT_BUCKET_NAME",
-"TRANSLATE_TOPIC": "YOUR_TRANSLATE_TOPIC_NAME",
-"TRANSLATE": true,
-"TO_LANG": ["en", "fr", "es", "ja", "ru"]
-}
-Replace YOUR_RESULT_TOPIC_NAME with a topic name to be used for saving results.
-Replace YOUR_TEXT_BUCKET_NAME with a bucket name used for saving results.
-Replace YOUR_TRANSLATE_TOPIC_NAME with a topic name to be used for translating results.
+5. Configure the app:
+
+	Edit the config.json file in the app directory to have the following contents:
+	
+	{
+	"RESULT_TOPIC": "YOUR_RESULT_TOPIC_NAME",
+	"RESULT_BUCKET": "YOUR_TEXT_BUCKET_NAME",
+	"TRANSLATE_TOPIC": "YOUR_TRANSLATE_TOPIC_NAME",
+	"TRANSLATE": true,
+	"TO_LANG": ["en", "fr", "es", "ja", "ru"]
+	}
+		
+a. Replace YOUR_RESULT_TOPIC_NAME with a topic name to be used for saving results.
+
+b. Replace YOUR_TEXT_BUCKET_NAME with a bucket name used for saving results.
+
+c. Replace YOUR_TRANSLATE_TOPIC_NAME with a topic name to be used for translating results.
 
 
