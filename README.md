@@ -86,54 +86,71 @@ pip install --upgrade google-cloud
 
    4. Click Submit and enable billing.
 
-Enabling API’s
-Open the console left side menu and select APIs & Services then Library.
- Select and enable given below API’s and billing for these individual API’s.
-Google Cloud Functions
-Google Cloud Pub/Sub
-Google Cloud Storage
-Google Cloud Translation API
-Google Cloud Vision API
+5. Enabling API’s
+
+	a. Open the console left side menu and select APIs & Services then Library.
+	
+	b. Select and enable given below API’s and billing for these individual API’s.
+	
+	1. Google Cloud Functions
+	
+	2. Google Cloud Pub/Sub
+	
+	3. Google Cloud Storage
+	
+	4. Google Cloud Translation API
+	
+	5. Google Cloud Vision API
+
+![alt text](https://github.com/shadabcoden/Expense__AI/blob/master/images/4.png)
+
+
+	
 
 
 
 
-Create a service account key
+6. Create a service account key
 
-For creating a service account key
-
-
-Open the console left side menu and first click on APIs & Services and click on Credentials.
-Now in the Credentials page click on create credentials button and then click on Service account key  option.
-Now click on service account and select your “project name” from the dropdown list.
-In the key type select JSON and then click on the create button. 
-Now a JSON file has been downloaded which is your service account key.
-
-
-
-
-
-Preparing Development Environment 
-
+	For creating a service account key
+	
+	a. Open the console left side menu and first click on APIs & Services and click on Credentials.
+	
+	b. Now in the Credentials page click on create credentials button and then click on Service account key  option.
+	
+	c. Now click on service account and select your “project name” from the dropdown list.
+	
+	d. In the key type select JSON and then click on the create button. 
+	
+	e. Now a JSON file has been downloaded which is your service account key.
+	
+	Preparing Development Environment 
 
 
-Prepare your development environment.
 
-Objectives
-Install the latest versions of Python 2 and 3
-Install the Google Cloud SDK (optional)
+## Prepare your development environment.
 
-Installing Python
-Linux
-Most Linux distributions include recent versions of Python. Install the appropriate packages for your distribution. For Debian and Ubuntu, these packages are python, python-dev, python3, and python3-dev:
+### Objectives
+   Install the latest versions of Python 2 and 3
+
+   Install the Google Cloud SDK (optional)
+
+### Installing Python
+#### Linux
+   Most Linux distributions include recent versions of Python. Install the appropriate packages for your distribution. For Debian and Ubuntu, these packages are python, python-dev, python3, and python3-dev:
+
 sudo apt update
+
 sudo apt install python python-dev python3 python3-dev
 	
-Now you can install packages and be confident that they won't affect other projects or your global Python installation:
+
+   Now you can install packages and be confident that they won't affect other projects or your global Python installation:
+
 
 pip install google-cloud-storage
 
-Install the Google Cloud SDK (optional)
+## Install the Google Cloud SDK (optional)
+
 https://cloud.google.com/sdk/
 
 
