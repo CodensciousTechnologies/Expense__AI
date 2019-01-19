@@ -1,6 +1,6 @@
 import os
 #  use your own api_key.json
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="./api_key.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="/api_key.json"
 
 import argparse
 import io
@@ -42,4 +42,4 @@ def detect_document(path):
     # [END vision_python_migration_document_text_detection]
 # [END vision_fulltext_detection]
 
-print(detect_document("./1.jpg"))
+print(detect_document("test_img/1.jpg"))
