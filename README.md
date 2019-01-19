@@ -51,6 +51,8 @@ pip install --upgrade google-cloud
 
 1. Create your Gmail account specifically for this project or you can register in cloud.google.com using your existing Gmail id and click on console at top right corner.
 2. You will get a pop-up, select Term of service and select your Country of residence, then agree and continue.
+![alt text](https://github.com/shadabcoden/Expense__AI/blob/master/images/1.png)
+
 
 
 
@@ -59,6 +61,8 @@ pip install --upgrade google-cloud
 3. Creating a new project:
 
     a. In the GCP Console, go to the Manage resources page and select or create a project.
+![alt text](https://github.com/shadabcoden/Expense__AI/blob/master/images/2.png)
+    
 
 
 
@@ -67,17 +71,20 @@ pip install --upgrade google-cloud
 
     a. To create a new billing account:
     
-       i. Open the console left side menu and select Billing.
+       1. Open the console left side menu and select Billing.
+![alt text](https://github.com/shadabcoden/Expense__AI/blob/master/images/3.png)
+
+       
 
 
 
-Click the New billing account button. (Note that if this is not your first billing account, first you need to open the billing account list by clicking the name of your existing billing account near the top of the page, and then clicking Manage billing accounts.)
+	2. Click the New billing account button. (Note that if this is not your first billing account, first you need to open the billing account list by clicking the name of your existing billing account near the top of the page, and then clicking Manage billing accounts.)
 
 
-Enter the name of the billing account and enter your billing information. The options you see depend on the country of your billing address. Note that for United States accounts, you cannot change tax status after the account is created.
+	3. Enter the name of the billing account and enter your billing information. The options you see depend on the country of your billing address. Note that for United States accounts, you cannot change tax status after the account is created.
 
 
-Click Submit and enable billing.
+	4. Click Submit and enable billing.
 
 Enabling API’s
 Open the console left side menu and select APIs & Services then Library.
