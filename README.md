@@ -198,4 +198,4 @@ b. Replace YOUR_TEXT_BUCKET_NAME with a bucket name used for saving results.
 
 c. Replace YOUR_TRANSLATE_TOPIC_NAME with a topic name to be used for translating results.
 
-
+d. new update
